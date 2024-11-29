@@ -1,0 +1,85 @@
+/*Genralizado*//**/
+
+*{
+    margin: 0px;
+    font-family: 'Segoe UI';
+}
+.aaa{
+    padding: 2rem;
+}
+
+/*Navegación*/
+
+nav{
+    background:#096a0a;
+    width: 99%;
+    padding: 10px;
+    display: inline-block;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+ 
+    font-size: 18px;
+    
+}
+.casa{
+    display:inline-block;
+    vertical-align: middle;
+    align-content: flex-end;
+}
+.logo{
+    display:inline-block;
+    vertical-align: middle;
+    align-content: flex-end;
+}
+
+/**/
+
+/*Parte Baja*/
+
+footer{
+    display: flex;
+
+    justify-content: space-around;
+    background-color: #111010;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-top:50px;
+    width:99%;
+    height: 70px;
+}
+footer a{
+    color: aliceblue;
+    
+}
+
+/**/
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*ScrollBar*/
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background: green;
+    border-radius: 12px;
+    border: 3px solid #000000;    
+}
+/**/
+/**//**/
+
+
