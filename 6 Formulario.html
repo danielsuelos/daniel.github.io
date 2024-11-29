@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina 6 (Formulario)</title>
+    <meta http-equiv=refresh content=>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style6.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="1 Principal.html"><img src="IMAGENES/SVG/home relleno.svg" alt="Home" width="25px" class="casa"></a></li>
+            <li><a href="2 Divisiones extremeños.html" >Resumen</a></li>
+            <li><a href="Menú Rapido (Borrar).html">Indice</a></li>
+            <li><a href="3 Historico.html" >Historia</a></li>
+            <li><a href="4 Escala Competi.html">Sistema de ligas</a></li>
+            <li><a href="5 Divisiones extremeños.html">Equipos</a></li>
+            <li><a href="7 Clasificacion.html">Clasificación</a></li>
+            <img src="IMAGENES/PNG/logo.png" class="logo" height="120">
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <br>
+ 
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        
+        <img src="IMAGENES/SVG/Mail.svg" alt="Mail" height="20px">
+        <label for="email"></label>
+        <input type="email" id="edad" name="edad" max="99"min="18" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+        
+        <br>
+        <br>
+        <br>
+
+        <img src="IMAGENES/SVG/Persona.svg" alt="Nombre" height="20px">
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="Nombre" maxlength="30" placeholder="Nombre" pattern="^[A-Za-zÀ-ÿ\u00f1\u00d1]*$" required>
+
+        <br>
+        <br>
+        <br>
+
+        <img src="IMAGENES/SVG/Varias Personas.svg" alt="Apellidos" height="20px">
+        <label for="apellidos"></label>
+        <input type="text" id="apellidos" name="Apellidos" maxlength="30" placeholder="Apellidos" pattern="^[A-Za-zÀ-ÿ\u00f1\u00d1]*$" required>
+
+        <br>
+        <br>
+        <br>
+
+        <!--Hay 8 numeros como minimo ya que los numeros de telefono de USA tiene 8 caracteres contando el guión-->
+
+        <img src="IMAGENES/SVG/Telefono.svg" alt="Telefono" height="20px">
+        <label for="tel"></label>
+        <input type="tel" id="tel" name="telefono" max="12" min="8" placeholder="Numero de Teléfono" pattern="^\+?[0-9\s\-]{7,15}$" title="El formato debe ser: +34 666 666 666  o  +1 201 111-111" required>
+
+        <br>
+        <br>
+        <br>
+        
+        <p><strong><img src="IMAGENES/SVG/Menú.svg" alt="Menú" height="20px"> Selecciona el asunto</strong></p>
+
+        <br>
+
+        <select name="Asunto" id="Asunto" required>
+
+            <option value="errores">Errores</option>
+            <option value="Sugerencias">Sugerencias</option>
+            <option value="Otros">Otros</option>
+        
+        </select>
+
+        <br>
+        <br>
+        <br>
+
+        <img src="IMAGENES/SVG/Documento.svg" alt="Asunto" height="20px" class="img1">
+        <label for="escribir"></label>
+        <textarea name="textarea" rows="4" cols="47" id="escribir" maxlength="500" placeholder="Especifica aqui más en detalle lo que necesite"></textarea>
+        
+        <br>
+        <br>
+        <br>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+
+
+</body>
+
+<footer>
+    
+    <li><a href="6 Formulario.html">Contacta con Nosotros</a></li>
+    
+    <br>
+    
+    <li><a href="https://www.instagram.com/fedexfutbol/?hl=es" target="_blank"><img src="IMAGENES/SVG/Instagram.svg" alt="Instagram" width="25px"></a></li>
+    <li><a href="https://x.com/El11Extremeno" target="_blank"><img src="IMAGENES/SVG/Twitter.svg" alt="x" width="25px"></a></li>
+    <li><a href="https://www.youtube.com/@FedExFutbol" target="_blank"><img src="IMAGENES/SVG/Youtube.svg" alt="Youtube" width="25px"></a></li>
+    
+
+</footer>
+
+</html>
