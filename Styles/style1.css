@@ -23,15 +23,16 @@ nav a{
 nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 13px 35px;
+    padding: 13px 105px;
  
     font-size: 18px;
     
 }
-.casa{
+.logoup{
     display:inline-block;
     vertical-align: middle;
     align-content: flex-end;
+    width: 25px;
 }
 .logo{
     display:inline-block;
@@ -45,22 +46,22 @@ nav ul li{
 
 footer{
     display: flex;
+
     justify-content: space-around;
     background-color: #111010;
     align-items: center;
     font-size: 18px;
     padding: 10px;
-    margin-top:50px;
+    margin-top:528px;
     width:99%;
     height: 70px;
-    list-style: none;
 }
 footer a{
-    color: aliceblue;   
+    color: aliceblue;
+    
 }
 
 /**/
-
 a{
     color: black;
     text-decoration: none;
