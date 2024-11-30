@@ -82,10 +82,20 @@ a{
 /**/
 /**//**/
 
-form{
-    padding-left: 1em;
-    margin-top: em;
+li{
+    list-style: none;
 }
-.img1{
-    margin-bottom: 1.8em;
+.liga{
+    height: 32px;
 }
+.clasi{
+    height: 500px;
+    display: flex;
+}
+summary{
+    font-weight: bold;
+}
+.lado_lado{
+    display: flex;
+}
+
